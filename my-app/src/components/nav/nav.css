@@ -1,0 +1,15 @@
+.navContainer {
+    height: 1% important!;
+    border-bottom: 2px solid black;
+}
+.navLinks{
+    font-family: 'Rajdhani', sans-serif !important;
+    font-size: 25px !important;
+    color: black !important;
+    padding: 0% !important;
+    letter-spacing: 4px ;
+}
+.nav-link {
+    color: black !important;
+    font-weight: bolder;
+}
