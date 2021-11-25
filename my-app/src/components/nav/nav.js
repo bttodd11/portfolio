@@ -6,7 +6,7 @@ import './nav.css';
 
 let nav = () => {
   return (
-    <Navbar className="justify-content-end navContainer " 
+    <Nav className="justify-content-end navContainer " 
     activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
       <Nav.Item className="navLinks">
@@ -15,7 +15,7 @@ let nav = () => {
       <Nav.Item className="navLinks">
         <Nav.Link eventKey="link-3"> Contact</Nav.Link>
       </Nav.Item>
-    </Navbar>
+    </Nav>
   );
 };
 

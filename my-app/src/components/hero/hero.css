@@ -1,3 +1,169 @@
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) { 
+  .containerClass {
+    margin-top: 15%;
+  }
+  .statContainer {
+    vertical-align: top;
+    background-color: black;
+  }
+  .heroSection {
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 20%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: rgba(212, 147, 147, 0.959); /* Tint color */
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+
+  }
+  .heroSection2 {
+    height: 500px;
+    border: 1px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: rgba(212, 147, 147, 0.959); /* Tint color */
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+  }
+  .rowContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .statHeader {
+    background-color: rgba(212, 147, 147, 0.959); /* Tint color */
+    height: 70px;
+    width: 100%;
+    display: flex;
+  }
+  .circleHeader {
+    height: 100%;
+    width: 25%;
+    background-color: rgba(212, 147, 147, 0.959); /* Tint color */
+    display: inline-block;
+    border-bottom: 0.5px solid black;
+    border: 0px 0.5 solid black 0.5 solid black 0px;
+  }
+  .numberHeader {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 15%;
+    padding-top: 25%;
+    color: black;
+    font-family: "Ephesis", cursive;
+  }
+  .infoHeader {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-left: 1px solid black;
+  }
+  .nameHeader {
+    height: 75%;
+    width: 100%;
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-family: "Yuji Syuku", serif;
+    font-weight: bolder;
+    text-align: end;
+  }
+  .stats {
+    height: 25%;
+    width: 100%;
+    font-size: 11px;
+    padding: 0.5%;
+    text-align: end;
+    border-bottom: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  .stats span {
+    padding: 2%;
+  }
+  
+  .imageSection {
+    background-image: url(../../img/hero.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(241, 207, 207, 0.959); /* Tint color */
+    background-blend-mode: multiply;
+  }
+  .imageName {
+    bottom: 0;
+    position: absolute;
+    margin-left: 5%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+  /* Card Table Section */
+  .cardTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tableHeader {
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 7px;
+  }
+  .scalingNote {
+    font-size: 9px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    line-height: 1px;
+  }
+  
+  .cardTable th {
+    font-size: 14px;
+    width: 5%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    border: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  
+  .cardTable td {
+    font-size: 14px;
+    padding: 2px;
+    border: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: right;
+  }
+  .devText td {
+    font-weight: bolder;
+    border-bottom: none !important;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  
+  .description {
+    padding: 2%;
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid black;
+    margin: 2%;
+    font-family: "Chakra Petch", sans-serif;
+  }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1200px){
 .containerClass {
   margin-top: 5%;
 }
@@ -54,8 +220,8 @@
   width: 25%;
   background-color: rgba(212, 147, 147, 0.959); /* Tint color */
   display: inline-block;
-  border-bottom: .5px solid black;
-  border: 0px .5 solid black .5 solid black 0px;
+  border-bottom: 0.5px solid black;
+  border: 0px 0.5 solid black 0.5 solid black 0px;
 }
 .numberHeader {
   font-size: 50px;
@@ -63,9 +229,9 @@
   padding-left: 15%;
   padding-top: 25%;
   color: black;
-  font-family: 'Ephesis', cursive;
+  font-family: "Ephesis", cursive;
 }
-.infoHeader{
+.infoHeader {
   width: 100%;
   height: 100%;
   position: relative;
@@ -77,19 +243,18 @@
   font-size: 30px;
   display: inline-block;
   border-bottom: 1px solid black;
-  font-family: 'Yuji Syuku', serif;
+  font-family: "Yuji Syuku", serif;
   font-weight: bolder;
   text-align: end;
-
 }
-.stats{
+.stats {
   height: 25%;
   width: 100%;
   font-size: 9px;
-  padding: .5%;
+  padding: 0.5%;
   text-align: end;
-  border-bottom: .5px solid black;
-  font-family: 'Chakra Petch', sans-serif;
+  border-bottom: 0.5px solid black;
+  font-family: "Chakra Petch", sans-serif;
 }
 .stats span {
   padding: 2%;
@@ -109,7 +274,7 @@
   bottom: 0;
   position: absolute;
   margin-left: 5%;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   font-size: 40px;
   letter-spacing: 10px;
   color: white;
@@ -121,18 +286,18 @@
   width: 100%;
   border-collapse: collapse;
 }
-.tableHeader{
+.tableHeader {
   text-align: center;
   width: 100%;
   text-decoration: underline;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: bolder;
   letter-spacing: 7px;
 }
 .scalingNote {
   font-size: 7px;
   text-align: center;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   line-height: 1px;
 }
 
@@ -142,22 +307,21 @@
   font-weight: bolder;
   text-align: center;
   padding: 2px;
-  border: .5px solid black;
-  font-family: 'Chakra Petch', sans-serif;
-
+  border: 0.5px solid black;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .cardTable td {
   font-size: 10px;
   padding: 2px;
-  border: .5px solid black;
-  font-family: 'Chakra Petch', sans-serif;
+  border: 0.5px solid black;
+  font-family: "Chakra Petch", sans-serif;
   text-align: right;
 }
-.devText td{
+.devText td {
   font-weight: bolder;
   border-bottom: none !important;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .description {
@@ -166,5 +330,6 @@
   font-size: 9px;
   border: 1px solid black;
   margin: 2%;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
+}
 }
