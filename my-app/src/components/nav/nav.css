@@ -1,38 +1,27 @@
-.navContainer {
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) and (max-width: 565px) {
+  .navContainer {
+    display: none;
+  }
+  .navLinks {
+      display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .navContainer {
     height: 1% important!;
     border-bottom: 2px solid black;
-}
-.navLinks{
-    font-family: 'Rajdhani', sans-serif !important;
+  }
+  .navLinks {
+    font-family: "Rajdhani", sans-serif !important;
     font-size: 25px !important;
     color: black !important;
     padding: 0% !important;
-    letter-spacing: 4px ;
-}
-.nav-link {
+    letter-spacing: 4px;
+  }
+  .nav-link {
     color: black !important;
     font-weight: bolder;
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
-    .navContainer {
-        height: 1% important!;
-        border-bottom: 2px solid black;
-    }
-    .navLinks{
-        font-family: 'Rajdhani', sans-serif !important;
-        font-size: 25px !important;
-        color: black !important;
-        padding: 0% !important;
-        letter-spacing: 4px ;
-    }
-    .nav-link {
-        color: black !important;
-        font-weight: bolder;
-    }
-
-
-
+  }
 }

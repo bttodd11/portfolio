@@ -5,6 +5,7 @@ import "./hero.css";
 
 let hero = () => {
   return (
+    <div className="hero">
     <Container fluid="true" className="gx-0 containerClass">
       <Row className="gx-0 rowContainer">
         <Col xs={12} s={6} md={4} className="heroSection">
@@ -101,6 +102,7 @@ let hero = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 
