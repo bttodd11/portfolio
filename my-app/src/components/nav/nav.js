@@ -10,7 +10,7 @@ let nav = () => {
     activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
       <Nav.Item className="navLinks">
-        <Nav.Link eventKey="link-1"> Projects</Nav.Link>
+        <Nav.Link eventKey="link-1"> Experience</Nav.Link>
       </Nav.Item>
       <Nav.Item className="navLinks">
         <Nav.Link eventKey="link-3"> Contact</Nav.Link>

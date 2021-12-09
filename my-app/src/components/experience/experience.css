@@ -1,0 +1,34 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
+  }
+  
+  /* @media only screen and (min-width: 480px) and (orientation: landscape) {
+  
+  } */
+  /* 
+  Laptops Screens */
+  @media only screen and (min-width: 1145px) {
+      .expSection {
+          width: 100%;
+          height: 300px;
+      }
+      .sectionHeader {
+          width: 25%;
+          background-color: red;
+          height: 100%;
+          display: inline-block;
+      }
+      .expDetails {
+          width: 75%;
+          background-color: blue;
+          height: 100%;
+          display: inline-block;
+      }
+  }
+  
+  /* Extra Large Screens */
+  @media only screen and (min-width: 1281px) {
+  
+  }
+  
+  

@@ -177,7 +177,7 @@
     background-color: black;
   }
   .heroSection {
-    height: 400px;
+    height: 500px;
     border: 1px solid black;
     margin: 8%;
     padding-left: 0;
@@ -350,7 +350,7 @@ Laptops Screens */
     background-color: black;
   }
   .heroSection {
-    height: 400px;
+    height: 450px;
     border: 1px solid black;
     margin: 8%;
     padding-left: 0;
@@ -367,7 +367,7 @@ Laptops Screens */
     transform: rotate(-8deg);
   }
   .heroSection2 {
-    height: 400px;
+    height: 450px;
     border: 1px solid black;
     margin: 8%;
     padding-left: 0;
