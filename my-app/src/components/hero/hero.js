@@ -29,7 +29,6 @@ let hero = () => {
               </div>
             </div>
           </div>
-          <h5></h5>
           <div>
             <h5 className="tableHeader">Experience Stats</h5>
             <p className="scalingNote">
