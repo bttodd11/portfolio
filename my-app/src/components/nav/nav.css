@@ -11,7 +11,13 @@
   }
 }
 
-@media only screen and (min-width: 480px) and (orientation: landscape) {
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+  .navContainer {
+    display: none;
+  }
+  .navLinks {
+      display: none;
+  }
 
 }
 /* 
@@ -19,6 +25,7 @@ Laptops Screens */
 @media only screen and (min-width: 1145px) {
   .navContainer {
     background-color: #E9DEDC;
+    border-bottom: 3px solid #F9F6F6;
   }
   .navLinks {
     font-family: "Permanent Marker", cursive;

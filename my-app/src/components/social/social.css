@@ -1,0 +1,56 @@
+/* Global Settings */
+.socialSection {
+        width: 100%;
+        background-color: #F9F6F6;
+        height: 300px;
+        padding: 5%;
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
+
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+ 
+  
+  }
+  /* 
+  Laptops Screens */
+  @media only screen and (min-width: 1145px) {
+    .socialLinksSection {
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+    .socialHeader {
+        writing-mode:vertical-lr;
+        transform: rotate(-360deg);
+        font-size: 40px;
+        padding: 2px;
+        color: #E9DEDC;
+        font-family: "Permanent Marker", cursive;
+        text-decoration: underline;
+        letter-spacing: 5px;
+        display: inline;
+        float: right;
+    }
+    .socialImage {
+        height: 100px;
+        width: 100px;
+        padding: 2%;
+    }
+
+
+
+  }
+  
+  /* Extra Large Screens */
+  @media only screen and (min-width: 1281px) {
+  
+  }
+  
+  

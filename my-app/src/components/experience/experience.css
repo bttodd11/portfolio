@@ -12,6 +12,7 @@
 .expSection {
     width: 100%;
     background-color: #E9DEDC;
+    border-top: 3px solid #F9F6F6;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -43,9 +44,28 @@
     }
   }
   
-  /* @media only screen and (min-width: 480px) and (orientation: landscape) {
+  @media only screen and (min-width: 480px) and (max-width: 1000px )and (orientation: landscape) {
+    .expSection {
+        padding: 5%;
+    }
+    .expHeader {
+        margin-left: 20%;
+        display: inline-block;
+        background-color: #E9DEDC;
+        writing-mode:vertical-rl;
+        transform: rotate(-180deg);
+        font-size: 40px;
+        padding: 2px;
+        color: white;
+        font-family: "Permanent Marker", cursive;
+        text-decoration: underline;
+        letter-spacing: 5px;
+    }
+    .homeDepotCard {
+        margin-left: 15%;
+    }
   
-  } */
+  }
   /* 
   Laptops Screens */
   @media only screen and (min-width: 1145px) {

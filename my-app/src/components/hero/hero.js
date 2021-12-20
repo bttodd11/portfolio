@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import heroImage from "../../img/hero.jpg";
 import "./hero.css";
 
 let hero = () => {

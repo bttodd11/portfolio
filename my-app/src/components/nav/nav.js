@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavItem, NavLink, Navbar} from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 import './nav.css';
 
 
@@ -13,7 +13,7 @@ let nav = () => {
         <Nav.Link eventKey="link-1"> Experience</Nav.Link>
       </Nav.Item>
       <Nav.Item className="navLinks">
-        <Nav.Link eventKey="link-3"> Contact</Nav.Link>
+        <Nav.Link eventKey="link-3"> Socials</Nav.Link>
       </Nav.Item>
     </Nav>
   );

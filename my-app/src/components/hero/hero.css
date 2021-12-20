@@ -1,10 +1,10 @@
 /* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
+@media only screen and (min-width: 325px) and (max-width: 450px){
   .hero {
     width: 100%;
   }
   .containerClass {
-    margin-top: 15%;
+    margin-top: 1%;
   }
   .statContainer {
     vertical-align: top;
@@ -187,14 +187,9 @@
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
-    -webkit-transform: rotate(-8deg);
-    -moz-transform: rotate(-8deg);
-    -o-transform: rotate(-8deg);
-    -ms-transform: rotate(-8deg);
-    transform: rotate(-8deg);
   }
   .heroSection2 {
-    height: 400px;
+    height: 500px;
     border: 1px solid #E9DEDC;
     margin: 8%;
     padding-left: 0;
@@ -204,11 +199,6 @@
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
-    -webkit-transform: rotate(-8deg);
-    -moz-transform: rotate(8deg);
-    -o-transform: rotate(8deg);
-    -ms-transform: rotate(8deg);
-    transform: rotate(8deg);
   }
   .rowContainer {
     margin-left: 0;
@@ -360,11 +350,6 @@ Laptops Screens */
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
-    -webkit-transform: rotate(-8deg);
-    -moz-transform: rotate(-8deg);
-    -o-transform: rotate(-8deg);
-    -ms-transform: rotate(-8deg);
-    transform: rotate(-8deg);
   }
   .heroSection2 {
     height: 450px;
@@ -377,11 +362,6 @@ Laptops Screens */
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
-    -webkit-transform: rotate(-8deg);
-    -moz-transform: rotate(8deg);
-    -o-transform: rotate(8deg);
-    -ms-transform: rotate(8deg);
-    transform: rotate(8deg);
   }
   .rowContainer {
     margin-left: 0;
