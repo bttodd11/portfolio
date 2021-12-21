@@ -1,56 +1,119 @@
 /* Global Settings */
 .socialSection {
-        width: 100%;
-        background-color: #F9F6F6;
-        height: 300px;
-        padding: 5%;
+  width: 100%;
+  background-color: #f9f6f6;
+  height: 225px;
+  padding: 2%;
+  position: relative;
 }
-
-
-
+.socialLinksSection {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
+  .socialHeader {
+    display: none;
+  }
+  .socialImage {
+    height: 60px;
+    width: 60px;
+    padding: 3%;
+  }
+  .socialLinksSection {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+  }
+  .mobileSocialHeader {
+    font-size: 40px;
+    padding: 2%;
+    color: #e9dedc;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+}
 
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+  .socialSection {
+    width: 100%;
+    margin: auto;
+    position: relative;
   }
-  
-  @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
- 
-  
+  .socialLinksSection {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+    bottom: inherit;
   }
-  /* 
+  .socialImage {
+    height: 100px;
+    width: 100px;
+    padding: 3%;
+  }
+  .mobileSocialHeader {
+    writing-mode: vertical-lr;
+    transform: rotate(-360deg);
+    font-size: 40px;
+    padding: 2%;
+    color: #e9dedc;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    display: inline;
+    float: right;
+  }
+}
+/* 
   Laptops Screens */
-  @media only screen and (min-width: 1145px) {
-    .socialLinksSection {
-        width: 60%;
-        margin: auto;
-        display: block;
-    }
-    .socialHeader {
-        writing-mode:vertical-lr;
-        transform: rotate(-360deg);
-        font-size: 40px;
-        padding: 2px;
-        color: #E9DEDC;
-        font-family: "Permanent Marker", cursive;
-        text-decoration: underline;
-        letter-spacing: 5px;
-        display: inline;
-        float: right;
-    }
-    .socialImage {
-        height: 100px;
-        width: 100px;
-        padding: 2%;
-    }
-
-
-
+@media only screen and (min-width: 1145px) {
+  .socialSection {
+    width: 100%;
+    margin: auto;
+    position: relative;
   }
-  
-  /* Extra Large Screens */
-  @media only screen and (min-width: 1281px) {
-  
+  .socialLinksSection {
+    display: inline-block;
+    width: 90%;
+    padding-top: 4%;
+    text-align: center;
+    position: absolute;
   }
-  
-  
+  .socialHeader {
+    writing-mode: vertical-lr;
+    transform: rotate(-360deg);
+    font-size: 40px;
+    padding: 2%;
+    color: #e9dedc;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    display: inline;
+    float: right;
+  }
+  .mobileSocialHeader {
+    display: none;
+  }
+  .socialImage {
+    height: 100px;
+    width: 100px;
+    padding: 2%;
+  }
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1281px) {
+  .mobileSocialHeader {
+    display: none;
+  }
+}
