@@ -1,7 +1,8 @@
 import Nav from './components/nav';
 import Hero from './components/hero';
 import Experience from './components/experience';
-import Social from './components/social';
+import Quote from './components/quote';
+import Footer from './components/footer';
 import './App.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <Nav />
       <Hero />
       <Experience />
-      <Social />
+      <Quote />
+      <Footer />
     </div>
   );
 }

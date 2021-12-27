@@ -1,0 +1,58 @@
+/* Global Settings */
+.footerSection {
+  width: 100%;
+  background-color: #E9DEDC;
+  padding: 2%;
+  text-align: center;
+  margin-top: 2%;
+}
+.footerSection p {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
+  .footerImage {
+    height: 60px;
+    width: 60px;
+    padding: 3%;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+  .footerSection {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .footerImage {
+    height: 60px;
+    width: 60px;
+    padding: 3%;
+  }
+}
+/* 
+    Laptops Screens */
+@media only screen and (min-width: 1145px) {
+  .footerSection {
+    width: 100%;
+  }
+
+  .footerImage {
+    height: 80px;
+    width: 80px;
+    padding: 2%;
+  }
+  
+  .footerSection p {
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 5px;
+  }
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1281px) {
+}
