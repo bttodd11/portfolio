@@ -1,4 +1,19 @@
 /* GLobal Settings */
+.navContainer {
+  background-color: #E9DEDC;
+  border-bottom: 3px solid #F9F6F6;
+}
+.navLinks {
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px !important;
+  color: white !important;
+  padding: 1% !important;
+  letter-spacing: 4px;
+}
+.nav-link {
+  color: white !important;
+  font-weight: bolder;
+}
 
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -29,7 +44,7 @@ Laptops Screens */
   }
   .navLinks {
     font-family: "Permanent Marker", cursive;
-    font-size: 35px !important;
+    font-size: 25px !important;
     color: white !important;
     padding: 1% !important;
     letter-spacing: 4px;

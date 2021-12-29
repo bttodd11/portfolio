@@ -15,9 +15,13 @@
 .quoteParagraph {
   color: #e9dedc;
   font-family: "Permanent Marker", cursive;
+  font-size: 45px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 .goldWord {
-color: #ffd700;
+color: #26CF8A;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -45,18 +49,16 @@ color: #ffd700;
     margin: auto;
     position: relative;
   }
-  .quoteLinksSection {
-    display: inline-block;
-    width: 90%;
-    text-align: center;
-    margin: auto;
-    padding-top: 5%;
-    bottom: inherit;
-  }
   .quoteImage {
     height: 100px;
     width: 100px;
     padding: 3%;
+  }
+  .quoteParagraph {
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
   }
 
 }

@@ -1,104 +1,111 @@
 /* Global CSS */
 .homeDepotCard {
-    background-color: #ee7125  !important;
-    font-family: 'Bakbak One', cursive;
-    color: #E9DEDC !important;
+  background-color: #ee7125 !important;
+  font-family: "Bakbak One", cursive;
+  color: #e9dedc !important;
 }
 .siemensCard {
-    background-color: #009999 !important;
-    font-family: 'Bakbak One', cursive;
-    color: #E9DEDC !important;
+  background-color: #009999 !important;
+  font-family: "Bakbak One", cursive;
+  color: #e9dedc !important;
+}
+.freeLanceCard {
+  background-color: #26cf8a !important;
+  font-family: "Bakbak One", cursive;
+  color: #e9dedc !important;
 }
 .expSection {
-    width: 100%;
-    background-color: #E9DEDC;
-    border-top: 3px solid #F9F6F6;
+  width: 100%;
+  background-color: #e9dedc;
+  border-top: 3px solid #f9f6f6;
+  padding: 2%;
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
-    .expSection {
-        margin-top: 10%;
-    }
-    .expHeader {
-        width: 100%;
-        margin-top: 5%;
-        padding-bottom: 15%;
-        display: inline-block;
-        background-color: #E9DEDC;
-        font-size: 40px;
-        text-align: center;
-        color: white;
-        font-family: "Permanent Marker", cursive;
-        letter-spacing: 5px;
-    }
-    .siemensCard {
-        margin: auto;
-        margin-bottom: 10% !important;
-    }
-    .expHistory {
-        margin-bottom: 10% !important;
-    }
-    .homeDepotCard {
-        margin: auto;
-    }
+  .expSection {
+    margin-top: 10%;
   }
-  
-  @media only screen and (min-width: 480px) and (max-width: 1000px )and (orientation: landscape) {
-    .expSection {
-        padding: 5%;
-    }
-    .expHeader {
-        margin-left: 20%;
-        display: inline-block;
-        background-color: #E9DEDC;
-        writing-mode:vertical-rl;
-        transform: rotate(-180deg);
-        font-size: 40px;
-        padding: 2px;
-        color: white;
-        font-family: "Permanent Marker", cursive;
-        text-decoration: underline;
-        letter-spacing: 5px;
-    }
-    .homeDepotCard {
-        margin-left: 15%;
-    }
-  
+  .expHeader {
+    width: 100%;
+    margin-top: 5%;
+    padding-bottom: 15%;
+    display: inline-block;
+    background-color: #e9dedc;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    letter-spacing: 5px;
   }
-  /* 
+  .siemensCard {
+    margin: auto;
+    margin-bottom: 10% !important;
+  }
+  .freeLanceCard {
+    margin: auto;
+  }
+  .expHistory {
+    margin-bottom: 10% !important;
+  }
+  .homeDepotCard {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+  .expSection {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .tabHeader {
+    display: none !important;
+  }
+  .expHistory {
+    margin: 3%;
+  }
+
+}
+@media only screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) {
+
+  .expSection {
+    display: none;
+  }
+
+}
+/* 
   Laptops Screens */
-  @media only screen and (min-width: 1145px) {
-      .expSection {
-          padding: 4%;
-      }
-      .expHeader {
-          margin-left: 20%;
-          display: inline-block;
-          background-color: #E9DEDC;
-          writing-mode:vertical-rl;
-          transform: rotate(-180deg);
-          font-size: 40px;
-          padding: 2px;
-          color: white;
-          font-family: "Permanent Marker", cursive;
-          text-decoration: underline;
-          letter-spacing: 5px;
-      }
-      .jobDescriptionText {
-          font-size: 15px !important;
-          font-family: 'Bakbak One', cursive;
-      }
-      .expHistory {
-        color: #E9DEDC !important;
-      }
-
-
+@media only screen and (min-width: 1145px) {
+  .expSection {
+    padding: 4%;
   }
-  
-  /* Extra Large Screens */
-  @media only screen and (min-width: 1281px) {
-  
+  .expHeader {
+    margin-left: 20%;
+    display: inline-block;
+    background-color: #e9dedc;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 40px;
+    padding: 2px;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: underline;
+    letter-spacing: 5px;
   }
-  
-  
+  .jobDescriptionText {
+    font-size: 15px !important;
+    font-family: "Bakbak One", cursive;
+  }
+  .expHistory {
+    color: #e9dedc !important;
+    margin: 1%;
+  }
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1281px) {
+}

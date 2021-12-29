@@ -1,7 +1,7 @@
 /* Global Settings */
 .footerSection {
   width: 100%;
-  background-color: #E9DEDC;
+  background-color: #e9dedc;
   padding: 2%;
   text-align: center;
   margin-top: 2%;
@@ -9,6 +9,11 @@
 .footerSection p {
   color: white;
   font-family: "Permanent Marker", cursive;
+}
+.footerImage {
+  height: 80px;
+  width: 80px;
+  padding: 2%;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -18,7 +23,6 @@
     width: 60px;
     padding: 3%;
   }
-
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
@@ -27,10 +31,13 @@
     margin: auto;
     text-align: center;
   }
+  .footerSection p {
+    font-size: 40px;
+  }
   .footerImage {
     height: 60px;
     width: 60px;
-    padding: 3%;
+    padding: 1%;
   }
 }
 /* 
@@ -45,14 +52,18 @@
     width: 80px;
     padding: 2%;
   }
-  
+
   .footerSection p {
-    font-size: 20px;
-    text-decoration: underline;
+    font-size: 40px;
     letter-spacing: 5px;
   }
 }
 
 /* Extra Large Screens */
 @media only screen and (min-width: 1281px) {
+  .footerImage {
+    height: 200px;
+    width: 200px;
+    padding: 2%;
+  }
 }
