@@ -4,16 +4,19 @@
   background-color: #e9dedc;
   padding: 2%;
   text-align: center;
-  margin-top: 2%;
+  -webkit-box-shadow: 5px 5px 5px 5px #777;
+  -moz-box-shadow: 5px 5px 5px 5px #777;
+  box-shadow: 5px 5px 5px 5px#777;
+  padding: 2%;
 }
 .footerSection p {
   color: white;
   font-family: "Permanent Marker", cursive;
 }
 .footerImage {
-  height: 80px;
-  width: 80px;
-  padding: 2%;
+  height: 50px;
+  width: 50px;
+  padding: 1%;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -38,6 +41,31 @@
     height: 60px;
     width: 60px;
     padding: 1%;
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  .footerSection p {
+    font-size: 40px;
+  }
+}
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .footerSection {
+    width: 100%;
+    background-color: #e9dedc;
+    padding: 2%;
+    text-align: center;
+    margin-top: 2%;
+  }
+  .footerSection p {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+  }
+  .footerImage {
+    height: 80px;
+    width: 80px;
+    padding: 2%;
   }
 }
 /* 

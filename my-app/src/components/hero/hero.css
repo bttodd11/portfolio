@@ -4,157 +4,158 @@
 }
 .heroSection {
   height: 500px;
-  border: 1px solid #E9DEDC;
+  border: 1px solid #e9dedc;
   padding-left: 0;
   padding-right: 0;
   overflow: hidden;
-  background-color: #E9DEDC;
+  background-color: #e9dedc;
   -webkit-box-shadow: 0 35px 20px #777;
   -moz-box-shadow: 0 35px 20px #777;
   box-shadow: 0 35px 20px #777;
 }
 .heroSection2 {
   height: 500px;
-  border: 1px solid #E9DEDC;
+  border: 1px solid #e9dedc;
   padding-left: 0;
   padding-right: 0;
   overflow: hidden;
-  background-color: #E9DEDC;
+  background-color: #e9dedc;
   -webkit-box-shadow: 0 35px 20px #777;
   -moz-box-shadow: 0 35px 20px #777;
   box-shadow: 0 35px 20px #777;
 }
 .rowContainer {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .statHeader {
-    background-color: #E9DEDC;
-    height: 70px;
-    width: 100%;
-    display: flex;
-  }
-  .circleHeader {
-    height: 100%;
-    width: 25%;
-    background-color:  #E9DEDC;
-    display: inline-block;
-    border-bottom: 0.5px solid black;
-    border: 0px 0.5 solid black 0.5 solid black 0px;
-  }
-  .numberHeader {
-    font-size: 50px;
-    font-weight: bolder;
-    padding-left: 15%;
-    padding-top: 25%;
-    color: black;
-    font-family: "Ephesis", cursive;
-  }
-  .infoHeader {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    border-left: 1px solid black;
-  }
-  .nameHeader {
-    height: 75%;
-    width: 100%;
-    font-size: 30px;
-    display: inline-block;
-    border-bottom: 1px solid black;
-    font-family: "Yuji Syuku", serif;
-    font-weight: bolder;
-    text-align: end;
-  }
-  .stats {
-    height: 25%;
-    width: 100%;
-    font-size: 9px;
-    padding: 0.5%;
-    text-align: end;
-    border-bottom: 0.5px solid black;
-    font-family: "Chakra Petch", sans-serif;
-  }
-  .stats span {
-    padding: 2%;
-  }
+  margin-left: 0;
+  margin-right: 0;
+}
+.statHeader {
+  background-color: #e9dedc;
+  height: 70px;
+  width: 100%;
+  display: flex;
+}
+.circleHeader {
+  height: 100%;
+  width: 25%;
+  background-color: #e9dedc;
+  display: inline-block;
+  border-bottom: 0.5px solid black;
+  border: 0px 0.5 solid black 0.5 solid black 0px;
+}
+.numberHeader {
+  font-size: 50px;
+  font-weight: bolder;
+  padding-left: 15%;
+  padding-top: 25%;
+  color: black;
+  font-family: "Ephesis", cursive;
+}
+.infoHeader {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-left: 1px solid black;
+}
+.nameHeader {
+  height: 75%;
+  width: 100%;
+  font-size: 30px;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  font-family: "Yuji Syuku", serif;
+  font-weight: bolder;
+  text-align: end;
+}
+.stats {
+  height: 25%;
+  width: 100%;
+  font-size: 9px;
+  padding: 0.5%;
+  text-align: end;
+  border-bottom: 0.5px solid black;
+  font-family: "Chakra Petch", sans-serif;
+}
+.stats span {
+  padding: 2%;
+}
 
-  .imageSection {
-    background-image: url(../../img/hero.jpg);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    background-color:  #E9DEDC;
-    background-blend-mode: multiply;
-  }
-  .imageName {
-    bottom: 0;
-    position: absolute;
-    margin-left: 5%;
-    font-family: "Permanent Marker", cursive;
-    font-size: 40px;
-    letter-spacing: 10px;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
-  }
-  /* Card Table Section */
-  .cardTable {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .tableHeader {
-    text-align: center;
-    width: 100%;
-    text-decoration: underline;
-    font-family: "Chakra Petch", sans-serif;
-    font-weight: bolder;
-    letter-spacing: 7px;
-  }
-  .scalingNote {
-    font-size: 7px;
-    text-align: center;
-    font-family: "Chakra Petch", sans-serif;
-    line-height: 1px;
-  }
+.imageSection {
+  background-image: url(../../img/hero.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: 0% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #e9dedc;
+  background-blend-mode: multiply;
+}
+.imageName {
+  bottom: 0;
+  position: absolute;
+  margin-left: 5%;
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+/* Card Table Section */
+.cardTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tableHeader {
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 7px;
+}
+.scalingNote {
+  font-size: 7px;
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  line-height: 1px;
+}
 
-  .cardTable th {
-    font-size: 11px;
-    width: 5%;
-    font-weight: bolder;
-    text-align: center;
-    padding: 2px;
-    border: 0.5px solid black;
-    font-family: "Chakra Petch", sans-serif;
-  }
+.cardTable th {
+  font-size: 11px;
+  width: 5%;
+  font-weight: bolder;
+  text-align: center;
+  padding: 2px;
+  border: 0.5px solid black;
+  font-family: "Chakra Petch", sans-serif;
+}
 
-  .cardTable td {
-    font-size: 10px;
-    padding: 2px;
-    border: 0.5px solid black;
-    font-family: "Chakra Petch", sans-serif;
-    text-align: right;
-  }
-  .devText td {
-    font-weight: bolder;
-    border-bottom: none !important;
-    font-family: "Chakra Petch", sans-serif;
-  }
+.cardTable td {
+  font-size: 10px;
+  padding: 2px;
+  border: 0.5px solid black;
+  font-family: "Chakra Petch", sans-serif;
+  text-align: right;
+}
+.devText td {
+  font-weight: bolder;
+  border-bottom: none !important;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 8px;
+}
 
-  .description {
-    padding: 1%;
-    text-align: center;
-    font-size: 9px;
-    border: 1px solid black;
-    margin: 2%;
-    font-family: "Chakra Petch", sans-serif;
-  }
-
+.description {
+  padding: 1%;
+  text-align: center;
+  font-size: 9px;
+  border: 1px solid black;
+  margin: 2%;
+  font-family: "Chakra Petch", sans-serif;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 325px) and (max-width: 450px){
+@media only screen and (min-width: 325px) and (max-width: 450px) {
   .hero {
     width: 100%;
   }
@@ -168,14 +169,14 @@
   .heroSection {
     height: 500px;
     width: 85%;
-    border: 1px solid #E9DEDC;
+    border: 1px solid #e9dedc;
     margin-bottom: 20%;
     margin-left: 0% !important;
     margin-right: 0% !important;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    background-color: #E9DEDC;
+    background-color: #e9dedc;
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
@@ -183,11 +184,11 @@
   .heroSection2 {
     height: 500px;
     width: 85%;
-    border: 1px solid #E9DEDC;
+    border: 1px solid #e9dedc;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
@@ -196,7 +197,7 @@
     margin-right: 0% !important;
   }
   .statHeader {
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     height: 70px;
     width: 100%;
     display: flex;
@@ -204,7 +205,7 @@
   .circleHeader {
     height: 100%;
     width: 25%;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     display: inline-block;
     border-bottom: 0.5px solid black;
     border: 0px 0.5 solid black 0.5 solid black 0px;
@@ -250,10 +251,11 @@
     background-image: url(../../img/hero.jpg);
     width: 100%;
     height: 100%;
+    background-position: 0% 60%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     background-blend-mode: multiply;
   }
   .imageName {
@@ -332,24 +334,24 @@
   .heroSection {
     height: 500px;
     width: auto;
-    border: 1px solid #E9DEDC;
+    border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    background-color: #E9DEDC;
+    background-color: #e9dedc;
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
   }
   .heroSection2 {
     height: 500px;
-    border: 1px solid #E9DEDC;
+    border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
@@ -359,7 +361,7 @@
     margin-right: 0;
   }
   .statHeader {
-    background-color: #E9DEDC;
+    background-color: #e9dedc;
     height: 70px;
     width: 100%;
     display: flex;
@@ -367,7 +369,7 @@
   .circleHeader {
     height: 100%;
     width: 25%;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     display: inline-block;
     border-bottom: 0.5px solid black;
     border: 0px 0.5 solid black 0.5 solid black 0px;
@@ -413,10 +415,328 @@
     background-image: url(../../img/hero.jpg);
     width: 100%;
     height: 100%;
+    background-position: 0% 60%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
+    background-blend-mode: multiply;
+  }
+  .imageName {
+    bottom: 0;
+    position: absolute;
+    margin-left: 5%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+  /* Card Table Section */
+  .cardTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tableHeader {
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 7px;
+  }
+  .scalingNote {
+    font-size: 7px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    line-height: 1px;
+  }
+
+  .cardTable th {
+    font-size: 11px;
+    width: 5%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    border: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+  }
+
+  .cardTable td {
+    font-size: 10px;
+    padding: 2px;
+    border: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: right;
+  }
+  .devText td {
+    font-weight: bolder;
+    border-bottom: none !important;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 9px;
+  }
+
+  .description {
+    padding: 1%;
+    text-align: center;
+    font-size: 9px;
+    border: 1px solid black;
+    margin: 2%;
+    font-family: "Chakra Petch", sans-serif;
+  }
+}
+
+/* 
+Laptops Screens */
+@media only screen and (min-width: 1145px) {
+  .containerClass {
+    margin-top: 5%;
+  }
+  .statContainer {
+    vertical-align: top;
+    background-color: black;
+  }
+  .heroSection {
+    height: 450px;
+    top: 10%;
+    border: 1px solid #e9dedc;
+    margin: 8%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: #e9dedc;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+  }
+  .heroSection2 {
+    height: 450px;
+    border: 1px solid #e9dedc;
+    margin: 8%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: #e9dedc;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+  }
+  .rowContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .statHeader {
+    background-color: #e9dedc;
+    height: 70px;
+    width: 100%;
+    display: flex;
+  }
+  .circleHeader {
+    height: 100%;
+    width: 25%;
+    background-color: #e9dedc;
+    display: inline-block;
+    border-bottom: 0.5px solid black;
+    border: 0px 0.5 solid black 0.5 solid black 0px;
+  }
+  .numberHeader {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 15%;
+    padding-top: 25%;
+    color: black;
+    font-family: "Ephesis", cursive;
+  }
+  .infoHeader {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-left: 1px solid black;
+  }
+  .nameHeader {
+    height: 75%;
+    width: 100%;
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-family: "Yuji Syuku", serif;
+    font-weight: bolder;
+    text-align: end;
+  }
+  .stats {
+    height: 25%;
+    width: 100%;
+    font-size: 9px;
+    padding: 0.5%;
+    text-align: end;
+    border-bottom: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  .stats span {
+    padding: 2%;
+  }
+
+  .imageSection {
+    background-image: url(../../img/hero.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: 0% 60%;
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+    position: relative;
+    background-color: #e9dedc;
+    background-blend-mode: multiply;
+  }
+  .imageName {
+    bottom: 0;
+    position: absolute;
+    margin-left: 5%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+  /* Card Table Section */
+  .cardTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tableHeader {
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 7px;
+  }
+  .scalingNote {
+    font-size: 7px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    line-height: 1px;
+  }
+
+  .cardTable th {
+    font-size: 11px;
+    width: 5%;
+    font-weight: bolder;
+    text-align: center;
+    padding: 2px;
+    border: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+  }
+
+  .cardTable td {
+    font-size: 10px;
+    padding: 2px;
+    border: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: right;
+  }
+  .devText td {
+    font-weight: bolder;
+    border-bottom: none !important;
+    font-family: "Chakra Petch", sans-serif;
+  }
+
+  .description {
+    padding: 3%;
+    text-align: center;
+    font-size: 9px;
+    border: 1px solid black;
+    margin: 2%;
+    font-family: "Chakra Petch", sans-serif;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .heroSection {
+    height: 500px;
+    width: 50% !important;
+    border: 1px solid #e9dedc;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: #e9dedc;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+  }
+  .heroSection2 {
+    height: 500px;
+    width: 50% !important;
+    border: 1px solid #e9dedc;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: #e9dedc;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+  }
+
+  .statHeader {
+    background-color: #e9dedc;
+    height: 70px;
+    width: 100%;
+    display: flex;
+  }
+  .circleHeader {
+    height: 100%;
+    width: 25%;
+    background-color: #e9dedc;
+    display: inline-block;
+    border-bottom: 0.5px solid black;
+    border: 0px 0.5 solid black 0.5 solid black 0px;
+  }
+  .numberHeader {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 15%;
+    padding-top: 25%;
+    color: black;
+    font-family: "Ephesis", cursive;
+  }
+  .infoHeader {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-left: 1px solid black;
+  }
+  .nameHeader {
+    height: 75%;
+    width: 100%;
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    font-family: "Yuji Syuku", serif;
+    font-weight: bolder;
+    text-align: end;
+  }
+  .stats {
+    height: 25%;
+    width: 100%;
+    font-size: 9px;
+    padding: 0.5%;
+    text-align: end;
+    border-bottom: 0.5px solid black;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  .stats span {
+    padding: 2%;
+  }
+
+  .imageSection {
+    background-image: url(../../img/hero.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: 0% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #e9dedc;
     background-blend-mode: multiply;
   }
   .imageName {
@@ -483,332 +803,6 @@
   }
 }
 
-/* 
-Laptops Screens */
-@media only screen and (min-width: 1145px) {
-  .containerClass {
-    margin-top: 12%;
-  }
-  .statContainer {
-    vertical-align: top;
-    background-color: black;
-  }
-  .heroSection {
-    height: 450px;
-    border: 1px solid #E9DEDC;
-    margin: 8%;
-    padding-left: 0;
-    padding-right: 0;
-    overflow: hidden;
-    background-color: #E9DEDC;
-    -webkit-box-shadow: 0 35px 20px #777;
-    -moz-box-shadow: 0 35px 20px #777;
-    box-shadow: 0 35px 20px #777;
-  }
-  .heroSection2 {
-    height: 450px;
-    border: 1px solid #E9DEDC;
-    margin: 8%;
-    padding-left: 0;
-    padding-right: 0;
-    overflow: hidden;
-    background-color: #E9DEDC;
-    -webkit-box-shadow: 0 35px 20px #777;
-    -moz-box-shadow: 0 35px 20px #777;
-    box-shadow: 0 35px 20px #777;
-  }
-  .rowContainer {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .statHeader {
-    background-color: #E9DEDC;
-    height: 70px;
-    width: 100%;
-    display: flex;
-  }
-  .circleHeader {
-    height: 100%;
-    width: 25%;
-    background-color: #E9DEDC;
-    display: inline-block;
-    border-bottom: 0.5px solid black;
-    border: 0px 0.5 solid black 0.5 solid black 0px;
-  }
-  .numberHeader {
-    font-size: 50px;
-    font-weight: bolder;
-    padding-left: 15%;
-    padding-top: 25%;
-    color: black;
-    font-family: "Ephesis", cursive;
-  }
-  .infoHeader {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    border-left: 1px solid black;
-  }
-  .nameHeader {
-    height: 75%;
-    width: 100%;
-    font-size: 30px;
-    display: inline-block;
-    border-bottom: 1px solid black;
-    font-family: "Yuji Syuku", serif;
-    font-weight: bolder;
-    text-align: end;
-  }
-  .stats {
-    height: 25%;
-    width: 100%;
-    font-size: 9px;
-    padding: 0.5%;
-    text-align: end;
-    border-bottom: 0.5px solid black;
-    font-family: "Chakra Petch", sans-serif;
-  }
-  .stats span {
-    padding: 2%;
-  }
-
-  .imageSection {
-    background-image: url(../../img/hero.jpg);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    background-color: #E9DEDC;
-    background-blend-mode: multiply;
-  }
-  .imageName {
-    bottom: 0;
-    position: absolute;
-    margin-left: 5%;
-    font-family: "Permanent Marker", cursive;
-    font-size: 40px;
-    letter-spacing: 10px;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
-  }
-  /* Card Table Section */
-  .cardTable {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .tableHeader {
-    text-align: center;
-    width: 100%;
-    text-decoration: underline;
-    font-family: "Chakra Petch", sans-serif;
-    font-weight: bolder;
-    letter-spacing: 7px;
-  }
-  .scalingNote {
-    font-size: 7px;
-    text-align: center;
-    font-family: "Chakra Petch", sans-serif;
-    line-height: 1px;
-  }
-
-  .cardTable th {
-    font-size: 11px;
-    width: 5%;
-    font-weight: bolder;
-    text-align: center;
-    padding: 2px;
-    border: 0.5px solid black;
-    font-family: "Chakra Petch", sans-serif;
-  }
-
-  .cardTable td {
-    font-size: 10px;
-    padding: 2px;
-    border: 0.5px solid black;
-    font-family: "Chakra Petch", sans-serif;
-    text-align: right;
-  }
-  .devText td {
-    font-weight: bolder;
-    border-bottom: none !important;
-    font-family: "Chakra Petch", sans-serif;
-  }
-
-  .description {
-    padding: 3%;
-    text-align: center;
-    font-size: 9px;
-    border: 1px solid black;
-    margin: 2%;
-    font-family: "Chakra Petch", sans-serif;
-  }
-}
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) {
-    .heroSection {
-      height: 500px;
-      width: 50% !important;
-      border: 1px solid #E9DEDC;
-      padding-left: 0;
-      padding-right: 0;
-      overflow: hidden;
-      background-color: #E9DEDC;
-      -webkit-box-shadow: 0 35px 20px #777;
-      -moz-box-shadow: 0 35px 20px #777;
-      box-shadow: 0 35px 20px #777;
-  
-    }
-    .heroSection2 {
-      height: 500px;
-      width: 50% !important;
-      border: 1px solid #E9DEDC;
-      padding-left: 0;
-      padding-right: 0;
-      overflow: hidden;
-      background-color: #E9DEDC;
-      -webkit-box-shadow: 0 35px 20px #777;
-      -moz-box-shadow: 0 35px 20px #777;
-      background-color: #E9DEDC;
-      -webkit-box-shadow: 0 35px 20px #777;
-      -moz-box-shadow: 0 35px 20px #777;
-      box-shadow: 0 35px 20px #777;
-
-    }
-
-
-    .statHeader {
-      background-color: #E9DEDC;
-      height: 70px;
-      width: 100%;
-      display: flex;
-    }
-    .circleHeader {
-      height: 100%;
-      width: 25%;
-      background-color:  #E9DEDC;
-      display: inline-block;
-      border-bottom: 0.5px solid black;
-      border: 0px 0.5 solid black 0.5 solid black 0px;
-    }
-    .numberHeader {
-      font-size: 50px;
-      font-weight: bolder;
-      padding-left: 15%;
-      padding-top: 25%;
-      color: black;
-      font-family: "Ephesis", cursive;
-    }
-    .infoHeader {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      border-left: 1px solid black;
-    }
-    .nameHeader {
-      height: 75%;
-      width: 100%;
-      font-size: 30px;
-      display: inline-block;
-      border-bottom: 1px solid black;
-      font-family: "Yuji Syuku", serif;
-      font-weight: bolder;
-      text-align: end;
-    }
-    .stats {
-      height: 25%;
-      width: 100%;
-      font-size: 9px;
-      padding: 0.5%;
-      text-align: end;
-      border-bottom: 0.5px solid black;
-      font-family: "Chakra Petch", sans-serif;
-    }
-    .stats span {
-      padding: 2%;
-    }
-  
-    .imageSection {
-      background-image: url(../../img/hero.jpg);
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: relative;
-      background-color:  #E9DEDC;
-      background-blend-mode: multiply;
-    }
-    .imageName {
-      bottom: 0;
-      position: absolute;
-      margin-left: 5%;
-      font-family: "Permanent Marker", cursive;
-      font-size: 40px;
-      letter-spacing: 10px;
-      color: white;
-      font-weight: bolder;
-      text-align: center;
-    }
-    /* Card Table Section */
-    .cardTable {
-      width: 100%;
-      border-collapse: collapse;
-    }
-    .tableHeader {
-      text-align: center;
-      width: 100%;
-      text-decoration: underline;
-      font-family: "Chakra Petch", sans-serif;
-      font-weight: bolder;
-      letter-spacing: 7px;
-    }
-    .scalingNote {
-      font-size: 7px;
-      text-align: center;
-      font-family: "Chakra Petch", sans-serif;
-      line-height: 1px;
-    }
-  
-    .cardTable th {
-      font-size: 11px;
-      width: 5%;
-      font-weight: bolder;
-      text-align: center;
-      padding: 2px;
-      border: 0.5px solid black;
-      font-family: "Chakra Petch", sans-serif;
-    }
-  
-    .cardTable td {
-      font-size: 10px;
-      padding: 2px;
-      border: 0.5px solid black;
-      font-family: "Chakra Petch", sans-serif;
-      text-align: right;
-    }
-    .devText td {
-      font-weight: bolder;
-      border-bottom: none !important;
-      font-family: "Chakra Petch", sans-serif;
-    }
-  
-    .description {
-      padding: 1%;
-      text-align: center;
-      font-size: 9px;
-      border: 1px solid black;
-      margin: 2%;
-      font-family: "Chakra Petch", sans-serif;
-    }
-
-
-
-
-  }
-
 /* Extra Large Screens */
 @media only screen and (min-width: 1281px) {
   .containerClass {
@@ -825,7 +819,7 @@ Laptops Screens */
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    background-color: #E9DEDC;
+    background-color: #e9dedc;
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
@@ -837,18 +831,17 @@ Laptops Screens */
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     -webkit-box-shadow: 0 35px 20px #777;
     -moz-box-shadow: 0 35px 20px #777;
     box-shadow: 0 35px 20px #777;
-
   }
   .rowContainer {
     margin-left: 0;
     margin-right: 0;
   }
   .statHeader {
-    background-color: #E9DEDC;
+    background-color: #e9dedc;
     height: 15%;
     width: 100%;
     display: flex;
@@ -856,7 +849,7 @@ Laptops Screens */
   .circleHeader {
     height: 100%;
     width: 25%;
-    background-color: #E9DEDC;
+    background-color: #e9dedc;
     display: inline-block;
     border-bottom: 0.5px solid black;
     border: 0px 0.5 solid black 0.5 solid black 0px;
@@ -904,7 +897,7 @@ Laptops Screens */
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    background-color:  #E9DEDC;
+    background-color: #e9dedc;
     background-blend-mode: multiply;
   }
   .imageName {

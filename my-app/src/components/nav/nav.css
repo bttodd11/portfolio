@@ -1,7 +1,9 @@
 /* GLobal Settings */
 .navContainer {
-  background-color: #E9DEDC;
-  border-bottom: 3px solid #F9F6F6;
+  background-color: #e9dedc;
+  -webkit-box-shadow: 0 3px 2px #777;
+  -moz-box-shadow: 0 3px 2px #777;
+  box-shadow: 0 3px 2px #777;
 }
 .navLinks {
   font-family: "Permanent Marker", cursive;
@@ -17,12 +19,12 @@
 
 
 /* // Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
+@media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
   .navContainer {
     display: none;
   }
   .navLinks {
-      display: none;
+    display: none;
   }
 }
 
@@ -31,16 +33,38 @@
     display: none;
   }
   .navLinks {
-      display: none;
+    display: none;
   }
+}
 
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .navContainer {
+    background-color: #e9dedc;
+    -webkit-box-shadow: 0 10px 5px #777;
+    -moz-box-shadow: 0 10px 5px #777;
+    box-shadow: 0 2px 2px #777;
+  }
+  .navLinks {
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px !important;
+    color: white !important;
+    padding: 1% !important;
+    letter-spacing: 4px;
+  }
+  .nav-link {
+    color: white !important;
+    font-weight: bolder;
+  }
 }
 /* 
 Laptops Screens */
 @media only screen and (min-width: 1145px) {
   .navContainer {
-    background-color: #E9DEDC;
-    border-bottom: 3px solid #F9F6F6;
+    background-color: #e9dedc;
+    -webkit-box-shadow: 0 10px 5px #777;
+    -moz-box-shadow: 0 10px 5px #777;
+    box-shadow: 0 2px 2px #777;
   }
   .navLinks {
     font-family: "Permanent Marker", cursive;
@@ -57,6 +81,4 @@ Laptops Screens */
 
 /* Extra Large Screens */
 @media only screen and (min-width: 1281px) {
-
 }
-

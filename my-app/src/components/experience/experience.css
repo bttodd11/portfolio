@@ -17,9 +17,22 @@
 .expSection {
   width: 100%;
   background-color: #e9dedc;
-  border-top: 3px solid #f9f6f6;
+  -webkit-box-shadow: 5px 5px 5px 5px #777;
+  -moz-box-shadow: 5px 5px 5px 5px #777;
+  box-shadow: 5px 5px 5px 5px#777;
   padding: 2%;
-
+}
+.expHeader {
+  width: 100%;
+  margin-top: 5%;
+  padding-bottom: 15%;
+  display: inline-block;
+  background-color: #e9dedc;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 5px;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -65,17 +78,30 @@
   .expHistory {
     margin: 3%;
   }
-
 }
-@media only screen
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) 
-and (orientation: portrait) {
 
+/* Tablet Landscape  */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .expHeader {
+    margin-left: 20%;
+    display: inline-block;
+    background-color: #e9dedc;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 30px;
+    padding-top: 5%;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: underline;
+    letter-spacing: 5px;
+  }
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .expSection {
     display: none;
   }
-
 }
 /* 
   Laptops Screens */

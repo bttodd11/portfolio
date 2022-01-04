@@ -4,7 +4,7 @@ import './nav.css';
 
 
 
-let nav = () => {
+let nav = props => {
   return (
     <Nav className="justify-content-end navContainer " 
     activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}

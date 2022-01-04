@@ -4,26 +4,33 @@
   background-color: #f9f6f6;
   height: 370px;
   padding: 5% 1% 5% 1%;
+  box-shadow: #777 0px 4px 10px;
 }
 .quoteLinksSection {
   text-align: center;
   position: absolute;
   width: 100%;
-  bottom: 0px;
+  bottom: 0;
   text-align: center;
 }
 .quoteParagraph {
   color: #e9dedc;
-  font-family: "Permanent Marker", cursive;
-  font-size: 45px;
+  font-family: "Yuji Syuku", serif;
+  font-weight: bolder;
+  font-size: 25px;
+  padding-top: 10%;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-.goldWord {
-color: #26CF8A;
+.greenWord {
+  color: #26cf8a;
+  font-weight: bolder;
 }
-
+.goldWord {
+  color: #ffd700;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
   .quoteHeader {
@@ -40,6 +47,10 @@ color: #26CF8A;
     width: 100%;
     bottom: 0px;
     text-align: center;
+  }
+  .quoteParagraph {
+    font-size: 33px;
+    padding-top: 5%;
   }
 }
 
@@ -58,9 +69,59 @@ color: #26CF8A;
     font-size: 50px;
     width: 100%;
     height: 100%;
+    padding-top: 0%;
     text-align: center;
   }
-
+}
+/* Tablet Landscape  */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .expHeader {
+    margin-left: 20%;
+    display: inline-block;
+    background-color: #e9dedc;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 30px;
+    padding-top: 5%;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: underline;
+    letter-spacing: 5px;
+  }
+  .quoteParagraph {
+    color: #e9dedc;
+    font-family: "Permanent Marker", cursive;
+    font-size: 45px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 0%;
+  }
+}
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .quoteSection {
+    width: 100%;
+    background-color: #f9f6f6;
+    height: 370px;
+    padding: 5% 1% 5% 1%;
+  }
+  .quoteLinksSection {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+  }
+  .quoteParagraph {
+    color: #e9dedc;
+    font-family: "Permanent Marker", cursive;
+    font-size: 45px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 0%;
+  }
 }
 /* 
   Laptops Screens */
@@ -68,15 +129,17 @@ color: #26CF8A;
   .quoteSection {
     width: 100%;
     margin: auto;
-
   }
-.quoteParagraph {
-  font-size: 50px;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-
+  .quoteParagraph {
+    font-size: 45px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 0%;
+  }
+  .bigQuotes {
+    font-size: 65px;
+  }
 }
 
 /* Extra Large Screens */

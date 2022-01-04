@@ -1,5 +1,5 @@
 import "./footer.css";
-import twitter from "../../img/twitter.png";
+import linkedin from "../../img/linkedin.png";
 import email from "../../img/email.png";
 import instagram from "../../img/instagram.png";
 import facebook from "../../img/facebook.png";
@@ -10,11 +10,11 @@ let footer = () => {
   return (
     <div className="footerSection"> 
     <p>Connect</p>
-    <img src={twitter} className="footerImage" />
-    <img src={email} className="footerImage" />
-    <img src={instagram} className="footerImage" />
-    <img src={facebook} className="footerImage" />
-    <img src={github} className="footerImage" />
+    <a href="https://www.linkedin.com/in/bttodd/"><img src={linkedin} className="footerImage"/></a>
+    <a href="bttodd@icloud.com"><img src={email} className="footerImage"/></a>
+    <a href="https://www.instagram.com/bttodd11/"><img src={instagram} className="footerImage"/></a>
+    <a href="https://www.facebook.com/brian.b.todd/"><img src={facebook} className="footerImage"/></a>
+    <a href="https://github.com/bttodd11"><img src={github} className="footerImage"/></a>
     </div>
   )
 
