@@ -1,24 +1,23 @@
 import React from "react";
-import { Nav } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import './nav.css';
 
 
 
 let nav = props => {
   return (
-    <Nav className="justify-content-end navContainer " 
-    activeKey="/home" onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-    >
-      <Nav.Item className="navLinks">
-        <Nav.Link eventKey="link-1"> Experience</Nav.Link>
-      </Nav.Item>
-      <Nav.Item className="navLinks">
-        <Nav.Link eventKey="link-3">Projects</Nav.Link>
-      </Nav.Item>
-      <Nav.Item className="navLinks">
-        <Nav.Link eventKey="link-3">Connect</Nav.Link>
-      </Nav.Item>
+    <Navbar className="navContainer" collapseOnSelect expand="lg" variant="dark">
+  <Container fluid>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="navLinks justify-content-end flex-grow-1 pe-3">
+     <Nav.Link href="#experience">Experience</Nav.Link>
+      <Nav.Link href="#">Project</Nav.Link>
+      <Nav.Link href="#connect">Connect</Nav.Link>
     </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
   );
 };
 

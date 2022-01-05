@@ -4,7 +4,7 @@ import "./experience.css";
 
 let experience = () => {
   return (
-    <div className="expSection">
+    <div id="experience" className="expSection">
     <Container fluid="true" className="gx-0 expDetials">
       <Row>
         <Col className="tabHeader" xs={12} s={12} md={2}>

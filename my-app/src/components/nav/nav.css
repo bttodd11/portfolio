@@ -4,37 +4,27 @@
   -webkit-box-shadow: 0 3px 2px #777;
   -moz-box-shadow: 0 3px 2px #777;
   box-shadow: 0 3px 2px #777;
+  width: 100%;
 }
 .navLinks {
   font-family: "Permanent Marker", cursive;
   font-size: 25px !important;
   color: white !important;
-  padding: 1% !important;
   letter-spacing: 4px;
 }
 .nav-link {
   color: white !important;
   font-weight: bolder;
+  float: right;
+  padding: 2%;
 }
 
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
-  .navContainer {
-    display: none;
-  }
-  .navLinks {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
-  .navContainer {
-    display: none;
-  }
-  .navLinks {
-    display: none;
-  }
 }
 
 /* Tablet Portrait */
@@ -70,13 +60,12 @@ Laptops Screens */
     font-family: "Permanent Marker", cursive;
     font-size: 25px !important;
     color: white !important;
-    padding: 1% !important;
     letter-spacing: 4px;
   }
   .nav-link {
-    color: white !important;
-    font-weight: bolder;
+    padding-left: 4% !important;
   }
+
 }
 
 /* Extra Large Screens */

@@ -5,33 +5,28 @@ import Quote from "./components/quote/quote";
 import Footer from "./components/footer/footer";
 import PreLoader from "./components/preloader/preloader";
 import "./App.css";
-import $ from 'jquery';
-
-
+import $ from "jquery";
 
 const App = () => {
-
   // Function to remove the Preloader
   const removePreLoader = () => {
-    $('.preLoader').hide();
-    $('.appContainer').show();
-
-  }
+    $(".preLoader").hide();
+    $(".appContainer").show();
+  };
 
   // When the page loads hide the appContainer until it fully loads
-  // $(function(){
-  //   $('.appContainer').hide();
-  //   $(window).on('load', function(){
-  //      setTimeout(removePreLoader, 1000)
-  //   })
-  // })
+  $(function () {
+    $(".appContainer").hide();
+    $(window).on("load", function () {
+      setTimeout(removePreLoader, 1000);
+    });
+  });
 
-  
   return (
     <body>
-      {/* <div className="preLoader">
+      <div className="preLoader">
         <PreLoader />
-      </div> */}
+      </div>
       <div className="appContainer">
         <Nav />
         <Hero />
@@ -41,6 +36,6 @@ const App = () => {
       </div>
     </body>
   );
-}
+};
 
 export default App;

@@ -8,7 +8,7 @@ import github from "../../img/github.png";
 let footer = () => {
 
   return (
-    <div className="footerSection"> 
+    <div id="connect" className="footerSection"> 
     <p>Connect</p>
     <a href="https://www.linkedin.com/in/bttodd/"><img src={linkedin} className="footerImage"/></a>
     <a href="bttodd@icloud.com"><img src={email} className="footerImage"/></a>
