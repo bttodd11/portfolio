@@ -330,6 +330,9 @@
     vertical-align: top;
     background-color: black;
   }
+  .hero {
+    width: 100%;
+  }
   .heroSection {
     height: 500px;
     width: auto;
@@ -495,6 +498,9 @@ Laptops Screens */
   .statContainer {
     vertical-align: top;
     background-color: black;
+  }
+  .hero {
+    width: 100%;
   }
   .heroSection {
     height: 450px;
@@ -810,6 +816,9 @@ Laptops Screens */
   .statContainer {
     vertical-align: top;
     background-color: black;
+  }
+  .hero {
+    width: 100%;
   }
   .heroSection {
     height: 1000px;
