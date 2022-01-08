@@ -246,7 +246,7 @@
 
   .imageSection {
     background-image: url(./img/hero.jpg);
-    width: 100%;
+    width: auto;
     height: 100%;
     background-position: 0% 60%;
     background-size: cover;
@@ -409,7 +409,7 @@
 
   .imageSection {
     background-image: url(./img/hero.jpg);
-    width: 100%;
+    width: auto;
     height: 100%;
     background-position: 0% 60%;
     background-size: cover;
@@ -575,7 +575,7 @@ Laptops Screens */
 
   .imageSection {
     background-image: url(./img/hero.jpg);
-    width: 100%;
+    width: auto;
     height: 100%;
     background-position: 0% 60%;
     background-repeat: no-repeat;
@@ -726,7 +726,7 @@ Laptops Screens */
 
   .imageSection {
     background-image: url(./img/hero.jpg);
-    width: 100%;
+    width: auto;
     height: 100%;
     background-position: 0% 60%;
     background-size: cover;
@@ -888,7 +888,7 @@ Laptops Screens */
 
   .imageSection {
     background-image: url(./img/hero.jpg);
-    width: 100%;
+    width: auto;
     height: 100%;
     background-position: 0% 40%;
     background-size: cover;
