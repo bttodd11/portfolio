@@ -5,22 +5,21 @@ import Quote from "./components/quote/quote";
 import Footer from "./components/footer/footer";
 import PreLoader from "./components/preloader/preloader";
 import "./App.css";
-import $ from "jquery";
 
 const App = () => {
-  // Function to remove the Preloader
-  const removePreLoader = () => {
-    $(".preLoader").hide();
-    $(".appContainer").show();
-  };
 
   // When the page loads hide the appContainer until it fully loads
-  $(function () {
-    $(".appContainer").hide();
-    $(window).on("load", function () {
-      setTimeout(removePreLoader, 1000);
-    });
-  });
+  window.addEventListener('load', function () {
+    setTimeout( document.getElementsByClassName("preLoader")[0].style.visibility = "hidden")
+      setTimeout(function(){
+        document.getElementsByClassName("appContainer")[0].style.visibility = "visible";
+      })
+    })
+    
+
+
+
+
 
   return (
     <body>
