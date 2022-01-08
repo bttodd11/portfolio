@@ -15,7 +15,6 @@
 }
 .heroSection {
   height: 500px;
-  width: 100%;
   border: 1px solid #e9dedc;
   padding-left: 0;
   padding-right: 0;
@@ -27,7 +26,6 @@
 }
 .heroSection2 {
   height: 500px;
-  width: 100%;
   border: 1px solid #e9dedc;
   padding-left: 0;
   padding-right: 0;
@@ -169,7 +167,6 @@
   }
   .heroSection {
     height: 500px;
-    width: 100%;
     border: 1px solid #e9dedc;
     margin-bottom: 20%;
     margin-left: 0% !important;
@@ -184,7 +181,6 @@
   }
   .heroSection2 {
     height: 500px;
-    width: 100%;
     border: 1px solid #e9dedc;
     padding-left: 0;
     padding-right: 0;
@@ -334,7 +330,6 @@
   }
   .heroSection {
     height: 500px;
-    width: 100%;
     border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
@@ -347,7 +342,6 @@
   }
   .heroSection2 {
     height: 500px;
-    width: 100%;
     border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
@@ -499,12 +493,8 @@ Laptops Screens */
     vertical-align: top;
     background-color: black;
   }
-  .hero {
-    width: 100%;
-  }
   .heroSection {
     height: 450px;
-    width: 100%;
     top: 10%;
     border: 1px solid #e9dedc;
     margin: 8%;
@@ -518,7 +508,6 @@ Laptops Screens */
   }
   .heroSection2 {
     height: 450px;
-    width: 100%;
     border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
@@ -821,7 +810,6 @@ Laptops Screens */
   }
   .heroSection {
     height: 1000px;
-    width: 100%;
     border: 1px solid black;
     margin: 8%;
     padding-left: 0;
@@ -834,7 +822,6 @@ Laptops Screens */
   }
   .heroSection2 {
     height: 1000px;
-    width: 100%;
     border: 1px solid black;
     margin: 8%;
     padding-left: 0;
