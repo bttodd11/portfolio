@@ -1,10 +1,10 @@
+import "./App.css";
 import Nav from "./components/nav/nav";
 import Hero from "./components/hero/hero";
 import Experience from "./components/experience/experience";
 import Quote from "./components/quote/quote";
 import Footer from "./components/footer/footer";
 import PreLoader from "./components/preloader/preloader";
-import "./App.css";
 
 const App = () => {
 

@@ -1,6 +1,6 @@
+import "./hero.css";
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import "./hero.css";
 
 let hero = () => {
   return (
