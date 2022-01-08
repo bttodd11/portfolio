@@ -15,6 +15,7 @@
 }
 .heroSection {
   height: 500px;
+  width: 100%;
   border: 1px solid #e9dedc;
   padding-left: 0;
   padding-right: 0;
@@ -26,6 +27,7 @@
 }
 .heroSection2 {
   height: 500px;
+  width: 100%;
   border: 1px solid #e9dedc;
   padding-left: 0;
   padding-right: 0;
@@ -330,12 +332,9 @@
     vertical-align: top;
     background-color: black;
   }
-  .hero {
-    width: 100%;
-  }
   .heroSection {
     height: 500px;
-    width: auto;
+    width: 100%;
     border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
@@ -348,6 +347,7 @@
   }
   .heroSection2 {
     height: 500px;
+    width: 100%;
     border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
@@ -504,6 +504,7 @@ Laptops Screens */
   }
   .heroSection {
     height: 450px;
+    width: 100%;
     top: 10%;
     border: 1px solid #e9dedc;
     margin: 8%;
@@ -517,6 +518,7 @@ Laptops Screens */
   }
   .heroSection2 {
     height: 450px;
+    width: 100%;
     border: 1px solid #e9dedc;
     margin: 8%;
     padding-left: 0;
@@ -817,9 +819,6 @@ Laptops Screens */
     vertical-align: top;
     background-color: black;
   }
-  .hero {
-    width: 100%;
-  }
   .heroSection {
     height: 1000px;
     border: 1px solid black;
@@ -902,7 +901,7 @@ Laptops Screens */
     background-image: url(./img/hero.jpg);
     width: 100%;
     height: 100%;
-    background-position: 0% 20%;
+    background-position: 0% 40%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
