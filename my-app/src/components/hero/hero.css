@@ -50,8 +50,6 @@
   width: 25%;
   background-color: #e9dedc;
   display: inline-block;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
   border-bottom: 1px solid black;
 }
 .numberHeader {
@@ -168,7 +166,7 @@
   }
   .heroSection {
     height: 500px;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     margin-bottom: 20%;
     margin-left: 0% !important;
     margin-right: 0% !important;
@@ -182,7 +180,7 @@
   }
   .heroSection2 {
     height: 500px;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
@@ -329,7 +327,7 @@
   }
   .heroSection {
     height: 500px;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     margin: 8%;
     padding-left: 0;
     padding-right: 0;
@@ -341,7 +339,7 @@
   }
   .heroSection2 {
     height: 500px;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     margin: 8%;
     padding-left: 0;
     padding-right: 0;
@@ -493,7 +491,7 @@ Laptops Screens */
   .heroSection {
     height: 450px;
     top: 10%;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     margin: 8%;
     padding-left: 0;
     padding-right: 0;
@@ -505,7 +503,7 @@ Laptops Screens */
   }
   .heroSection2 {
     height: 450px;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     margin: 8%;
     padding-left: 0;
     padding-right: 0;
@@ -646,7 +644,7 @@ Laptops Screens */
   .heroSection {
     height: 500px;
     width: 50% !important;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
@@ -658,7 +656,7 @@ Laptops Screens */
   .heroSection2 {
     height: 500px;
     width: 50% !important;
-    border: 1px solid #e9dedc;
+    border: 1px solid black;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
