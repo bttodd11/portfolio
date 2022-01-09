@@ -50,8 +50,7 @@
   width: 25%;
   background-color: #e9dedc;
   display: inline-block;
-  border-bottom: 0.5px solid black;
-  border: 0px 0.5 solid black 0.5 solid black 0px;
+  border-bottom: .5px solid black;
 }
 .numberHeader {
   font-size: 50px;
@@ -204,7 +203,6 @@
     width: 25%;
     background-color: #e9dedc;
     display: inline-block;
-    border-bottom: 0.5px solid black;
     border: 0px 0.5 solid black 0.5 solid black 0px;
   }
   .numberHeader {
@@ -367,8 +365,7 @@
     width: 25%;
     background-color: #e9dedc;
     display: inline-block;
-    border-bottom: 0.5px solid black;
-    border: 0px 0.5 solid black 0.5 solid black 0px;
+    border: 0px 0.5 solid black 0.5 solid black 0px !important; 
   }
   .numberHeader {
     font-size: 50px;
@@ -533,7 +530,6 @@ Laptops Screens */
     width: 25%;
     background-color: #e9dedc;
     display: inline-block;
-    border-bottom: 0.5px solid black;
     border: 0px 0.5 solid black 0.5 solid black 0px;
   }
   .numberHeader {
@@ -684,7 +680,6 @@ Laptops Screens */
     width: 25%;
     background-color: #e9dedc;
     display: inline-block;
-    border-bottom: 0.5px solid black;
     border: 0px 0.5 solid black 0.5 solid black 0px;
   }
   .numberHeader {
@@ -847,7 +842,6 @@ Laptops Screens */
     width: 25%;
     background-color: #e9dedc;
     display: inline-block;
-    border-bottom: 0.5px solid black;
     border: 0px 0.5 solid black 0.5 solid black 0px;
   }
   .numberHeader {
