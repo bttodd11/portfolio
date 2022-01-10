@@ -111,6 +111,7 @@
   .quoteSection {
     width: 100%;
     margin: auto;
+    padding: 2% 1%;
   }
   .quoteParagraph {
     font-size: 45px;
