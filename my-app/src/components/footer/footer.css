@@ -2,16 +2,17 @@
 .footerSection {
   width: 100%;
   background-color: #e9dedc;
-  padding: 2%;
   text-align: center;
   -webkit-box-shadow: 5px 5px 5px 5px #777;
   -moz-box-shadow: 5px 5px 5px 5px #777;
   box-shadow: 5px 5px 5px 5px#777;
   padding: 2%;
+  margin-top: 10%;
 }
 .footerSection p {
   color: white;
   font-family: "Permanent Marker", cursive;
+  font-size: 30px;
 }
 .footerImage {
   height: 50px;
@@ -26,16 +27,19 @@
     width: 60px;
     padding: 3%;
   }
+  .footerSection {
+    margin-top: 15%;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
   .footerSection {
     width: 100%;
-    margin: auto;
+    margin-top: 15%;
     text-align: center;
   }
   .footerSection p {
-    font-size: 40px;
+    font-size: 30px;
   }
   .footerImage {
     height: 60px;
@@ -46,7 +50,7 @@
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
   /* For landscape layouts only */
   .footerSection p {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 /* Tablet Portrait */
@@ -56,7 +60,7 @@
     background-color: #e9dedc;
     padding: 2%;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 12%;
   }
   .footerSection p {
     color: white;
@@ -82,7 +86,7 @@
   }
 
   .footerSection p {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 5px;
   }
 }
