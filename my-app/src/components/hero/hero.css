@@ -83,7 +83,7 @@
   padding: 0.5%;
   text-align: end;
   border-bottom: 1px solid black;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 .stats span {
   padding: 2%;
@@ -103,6 +103,7 @@
 .cardTable {
   width: 100%;
   border-collapse: collapse;
+  font-family: 'Ubuntu Mono', monospace;
 }
 .tableHeader {
   text-align: center;
@@ -126,20 +127,20 @@
   text-align: center;
   padding: 2px;
   border: 1px solid black;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .cardTable td {
   font-size: 10px;
   padding: 2px;
   border: 1px solid black;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
   text-align: right;
 }
 .devText td {
   font-weight: bolder;
   border-bottom: none !important;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
   font-size: 8px;
 }
 
@@ -232,7 +233,7 @@
     padding: 0.5%;
     text-align: end;
     border-bottom: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
   .stats span {
     padding: 2%;
@@ -270,14 +271,14 @@
     text-align: center;
     width: 100%;
     text-decoration: underline;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
     letter-spacing: 7px;
   }
   .scalingNote {
     font-size: 9px;
     text-align: center;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     line-height: 1px;
   }
 
@@ -288,20 +289,20 @@
     text-align: right;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
 
   .cardTable td {
     font-size: 12px;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     text-align: right;
   }
   .devText td {
     font-weight: bolder;
     border-bottom: none !important;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 
   .description {
@@ -310,7 +311,7 @@
     font-size: 11px;
     border: 1px solid black;
     margin: 2%;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
 }
 
@@ -393,7 +394,7 @@
     padding: 0.5%;
     text-align: end;
     border-bottom: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
   .stats span {
     padding: 2%;
@@ -430,14 +431,14 @@
     text-align: center;
     width: 100%;
     text-decoration: underline;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
     letter-spacing: 7px;
   }
   .scalingNote {
     font-size: 7px;
     text-align: center;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     line-height: 1px;
   }
 
@@ -448,20 +449,20 @@
     text-align: center;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
 
   .cardTable td {
     font-size: 10px;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     text-align: right;
   }
   .devText td {
     font-weight: bolder;
     border-bottom: none !important;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 9px;
   }
 
@@ -471,7 +472,7 @@
     font-size: 9px;
     border: 1px solid black;
     margin: 2%;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
 }
 
@@ -553,11 +554,11 @@ Laptops Screens */
   .stats {
     height: 25%;
     width: 100%;
-    font-size: 9px;
+    font-size: 10px;
     padding: 0.5%;
     text-align: end;
     border-bottom: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
   .stats span {
     padding: 2%;
@@ -594,47 +595,47 @@ Laptops Screens */
     text-align: center;
     width: 100%;
     text-decoration: underline;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
     letter-spacing: 7px;
   }
   .scalingNote {
-    font-size: 7px;
+    font-size: 9px;
     text-align: center;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     line-height: 1px;
   }
 
   .cardTable th {
-    font-size: 11px;
+    font-size: 12px;
     width: 5%;
     font-weight: bolder;
     text-align: center;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 
   .cardTable td {
-    font-size: 10px;
+    font-size: 12px;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     text-align: right;
   }
   .devText td {
     font-weight: bolder;
     border-bottom: none !important;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 
   .description {
     padding: 3%;
     text-align: center;
-    font-size: 9px;
+    font-size: 10px;
     border: 1px solid black;
     margin: 2%;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -706,7 +707,7 @@ Laptops Screens */
     padding: 0.5%;
     text-align: end;
     border-bottom: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
   .stats span {
     padding: 2%;
@@ -743,14 +744,14 @@ Laptops Screens */
     text-align: center;
     width: 100%;
     text-decoration: underline;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
     letter-spacing: 7px;
   }
   .scalingNote {
     font-size: 7px;
     text-align: center;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     line-height: 1px;
   }
 
@@ -761,20 +762,20 @@ Laptops Screens */
     text-align: center;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 
   .cardTable td {
     font-size: 10px;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     text-align: right;
   }
   .devText td {
     font-weight: bolder;
     border-bottom: none !important;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 
   .description {
@@ -783,7 +784,7 @@ Laptops Screens */
     font-size: 9px;
     border: 1px solid black;
     margin: 2%;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 }
 
@@ -866,7 +867,7 @@ Laptops Screens */
     padding: 0.5%;
     text-align: end;
     border-bottom: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
   }
   .stats span {
     padding: 2%;
@@ -904,14 +905,14 @@ Laptops Screens */
     width: 100%;
     font-size: 40px;
     text-decoration: underline;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     font-weight: bolder;
     letter-spacing: 7px;
   }
   .scalingNote {
     font-size: 15px;
     text-align: center;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     line-height: 1px;
   }
 
@@ -922,21 +923,21 @@ Laptops Screens */
     text-align: right;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 
   .cardTable td {
     font-size: 20px;
     padding: 2px;
     border: 1px solid black;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
     text-align: right;
   }
   .devText td {
     font-size: 20px;
     font-weight: bolder;
     border-bottom: none !important;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 
   .description {
@@ -946,6 +947,6 @@ Laptops Screens */
     border: 1px solid black;
     margin: 2%;
     margin-top: 5%;
-    font-family: "Chakra Petch", sans-serif;
+font-family: 'Ubuntu Mono', monospace;
   }
 }
