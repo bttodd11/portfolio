@@ -18,6 +18,7 @@
   height: 50px;
   width: 50px;
   padding: 1%;
+  border-radius: 50%;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
