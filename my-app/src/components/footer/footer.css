@@ -24,8 +24,8 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 325px) and (max-width: 450px) and (orientation: portrait) {
   .footerImage {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     padding: 3%;
   }
   .footerSection {
@@ -81,8 +81,8 @@
   }
 
   .footerImage {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     padding: 2%;
   }
 
