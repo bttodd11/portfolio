@@ -943,10 +943,10 @@ font-family: 'Ubuntu Mono', monospace;
   .description {
     padding: 3%;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     border: 1px solid black;
     margin: 2%;
     margin-top: 5%;
-font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
   }
 }
