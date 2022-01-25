@@ -12,7 +12,7 @@ let nav = props => {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="navLinks justify-content-end flex-grow-1 pe-3">
      <Nav.Link href="#experience">Experience</Nav.Link>
-      <Nav.Link href="#">Project</Nav.Link>
+      <Nav.Link href="#">Projects</Nav.Link>
       <Nav.Link href="#connect">Connect</Nav.Link>
     </Nav>
   </Navbar.Collapse>
